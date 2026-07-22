@@ -1,0 +1,38 @@
+<div class="main-block">
+    <div class="container">
+        <h1 class="main-h1">Главная</h1>
+        <div class="buttons d-flex justify-content-between align-items-center">
+            <button class="interval border-secondary text-secondary bg-secondary text-white active" id="today">Сегодня</button>
+            <button class="interval border-secondary text-secondary bg-transparent" id="week">Неделя</button>
+            <button class="interval border-secondary text-secondary bg-transparent" id="month">Месяц</button>
+            <button class="interval border-secondary text-secondary bg-transparent" id="year">Год</button>
+            <button class="interval border-secondary text-secondary bg-transparent" id="all">Все</button>
+            <button class="interval border-secondary text-secondary bg-transparent" id="interval">Интервал</button>
+            <div class="dates">с <a href="#" class="text-secondary" id="date-1">Дата</a> по <a href="#"
+                    class="text-secondary" id="date-2">Дата</a>
+                <input type="date" id="date-1-input" class="date-input-hidden" tabindex="-1">
+                <input type="date" id="date-2-input" class="date-input-hidden" tabindex="-1">
+                </div>
+        </div>
+
+        <div class="income-expenses-block gap-1 border-secondary">
+
+            <!-- доходы -->
+            <div class="incomes-div">
+                <h1 class="main-h1 text-center">Доходы</h1>
+                <div class="chart-wrapper">
+                    <canvas id="myChart-incomes"></canvas>
+                </div>
+            </div>
+
+            <!-- расходы -->
+            <div class="expenses-div">
+                <h1 class="main-h1 text-center">Расходы</h1>
+                <div class="chart-wrapper">
+                    <canvas id="myChart-expenses"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

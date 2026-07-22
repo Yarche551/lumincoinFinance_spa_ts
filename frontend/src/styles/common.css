@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../static/fonts/Roboto.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('./../static/fonts/Robotomedium.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('./../static/fonts/Robotobold.ttf');
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.page {
+    display: flex;
+}
+
+.main-block {
+    width: 100%;
+}
+
+.main-h1 {
+    font-family: RobotoMedium, sans-serif;
+    margin: 100px 0 60px 0;
+    color: #052C65;
+}
+
+.me-10 {
+    margin-right: 10px;
+}
+
+.mw-397 {
+    width: 397px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.me-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.container {
+    margin: 0 60px;
+}
+
+.popup {
+    padding: 50px 90px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: calc(50% - 75px);
+    right: calc(50% - 150px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.popup a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #0D6EFD;
+    background: #0D6EFD;
+}
+
+.popup a:hover {
+    background: #0d51fd;
+    border: 1px solid #0d51fd;
+}

@@ -1,0 +1,39 @@
+<div class="block">
+    <!-- основной блок -->
+    <div class="main-block">
+        <div class="container">
+            <h1 class="main-h1">Доходы</h1>
+            <div class="incomes-grid" id="incomes-grid">
+
+                <!-- <div class="card">
+                    <h2 class="card-h2">Депозиты</h2>
+                    <div class="card-buttons">
+                        <a href="/income-edit?id=" class="btn btn-primary">Редактировать</a>
+                        <button class="btn btn-danger" id="to-delete-category">Удалить</button>
+                    </div>
+                </div> -->
+
+
+                <div class="card add-card" id="add-card">
+                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.6445 5.57812V8.54492H0V5.57812H13.6445ZM8.42188 0V14.4922H5.23633V0H8.42188Z"
+                            fill="#CED4DA"/>
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="incomes-popup" id="incomes-popup">
+        <div class="popup-box">
+            <div class="popup-text">Вы действительно хотите удалить категорию? Связанные доходы останутся без категории.
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-button btn btn-success" id="popup-confirm-delete">Да, удалить</button>
+                <button class="popup-button btn btn-danger" id="popup-cancel-delete">Не удалять</button>
+            </div>
+        </div>
+    </div>
+</div>

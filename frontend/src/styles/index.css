@@ -1,0 +1,88 @@
+
+.buttons {
+    max-width: 894px;
+    margin-bottom: 140px;
+}
+
+.interval {
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 9px 0;
+    width: 100px;
+}
+
+/* клод добавил: date-1/date-2 остаются обычными серыми ссылками,
+   а input[type=date] спрятан и используется только как источник выбора даты */
+.dates {
+    position: relative;
+}
+
+.date-input-hidden {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.income-expenses-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    margin-bottom: 173px;
+}
+
+.incomes-div {
+    border-right: 1px solid #D9D9D9;
+}
+
+.chart-wrapper {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.color-row {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.color-block-red {
+    width: 35px;
+    height: 10px;
+    background-color: #DC3545;
+    margin-right: 10px;
+}
+
+.color-block-orange {
+    width: 35px;
+    height: 10px;
+    background-color: #FD7E14;
+    margin-right: 10px;
+}
+
+.color-block-yellow {
+    width: 35px;
+    height: 10px;
+    background-color: #FFC107;
+    margin-right: 10px;
+}
+
+.color-block-green {
+    width: 35px;
+    height: 10px;
+    background-color: #20C997;
+    margin-right: 10px;
+}
+
+.color-block-blue {
+    width: 35px;
+    height: 10px;
+    background-color: #0D6EFD;
+    margin-right: 10px;
+}

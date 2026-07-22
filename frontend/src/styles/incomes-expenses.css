@@ -1,0 +1,65 @@
+.main-h1 {
+    margin-bottom: 40px;
+}
+
+.incomes-grid, .expenses-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card-h2 {
+    margin-bottom: 10px;
+    color: #052C65;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 20px 0 20px 20px;
+    border: 1px solid #CED4DA;
+}
+
+.btn-primary {
+    margin-right: 10px;
+}
+
+.add-card {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 53px 168px;
+}
+
+.add-card:hover {
+    border: 1px solid #0D6EFD;
+}
+
+
+.popup {
+    padding: 50px 90px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: calc(50% - 75px);
+    right: calc(50% - 150px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.popup a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #0D6EFD;
+    background: #0D6EFD;
+}
+
+.popup a:hover {
+    background: #0d51fd;
+    border: 1px solid #0d51fd;
+}

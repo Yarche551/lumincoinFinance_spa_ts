@@ -1,0 +1,37 @@
+.aside {
+    border-right: 1px solid #D9D9D9;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.logo-link {
+    padding: 40px 91px 20px 50px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.nav-link {
+    color: #052C65;
+}
+
+.list {
+    margin: 60px 20px 0 20px;
+}
+
+.balance {
+    padding: 0 20px 20px 20px;
+    color: #052C65;
+
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.profile {
+    margin: 20px 0 40px 20px;
+    width: 85%;
+    height: 36px;
+}
+
+.profile-image {
+    margin-right: 16px;
+}

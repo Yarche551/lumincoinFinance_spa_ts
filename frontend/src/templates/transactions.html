@@ -1,0 +1,54 @@
+<div class="page">
+    <div class="main-block">
+        <div class="container">
+            <h1 class="main-h1">Доходы и расходы</h1>
+            <div class="create-income-expenses">
+                <button class="create-income btn btn-success me-10" id="create-income">Создать доход</button>
+                <button class="create-expenses btn btn-danger" id="create-expenses">Создать расход</button>
+            </div>
+            <div class="buttons d-flex justify-content-between align-items-center">
+                <button class="interval border-secondary text-secondary bg-transparent" id="today">Сегодня</button>
+                <button class="interval border-secondary text-secondary bg-transparent" id="week">Неделя</button>
+                <button class="interval border-secondary text-secondary bg-transparent" id="month">Месяц</button>
+                <button class="interval border-secondary text-secondary bg-transparent" id="year">Год</button>
+                <button class="interval border-secondary text-secondary bg-transparent" id="all">Все</button>
+                <button class="interval border-secondary text-secondary bg-transparent" id="interval">Интервал</button>
+                <div class="dates">с <a href="#" class="text-secondary" id="date-1">Дата</a> по <a href="#"
+                        class="text-secondary" id="date-2">Дата</a>
+                    <input type="date" id="date-1-input" class="date-input-hidden" tabindex="-1">
+                    <input type="date" id="date-2-input" class="date-input-hidden" tabindex="-1">
+                </div>
+            </div>
+
+            <table class="transactions">
+                <thead>
+                    <tr>
+                        <th>№ операции</th>
+                        <th>Тип</th>
+                        <th>Категория</th>
+                        <th>Сумма</th>
+                        <th>Дата</th>
+                        <th>Комментарий</th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="transactions-popup" id="transactions-popup">
+        <div class="popup-box">
+            <div class="popup-text">Вы действительно хотите удалить операцию?</div>
+            <div class="popup-buttons">
+                <button class="popup-button btn btn-success me-12" id="popup-confirm-delete">Да, удалить</button>
+                <button class="popup-button btn btn-danger" id="popup-cancel-delete">Не удалять</button>
+            </div>
+        </div>
+    </div>
+</div>

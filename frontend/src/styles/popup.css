@@ -1,0 +1,35 @@
+.expenses-popup,
+.incomes-popup,
+.transactions-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0.75);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-box {
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+    background: #fff;
+
+    text-align: center;
+    padding: 40px;
+    max-width: 530px;
+    max-height: 184px;
+}
+
+.popup-text {
+    margin-bottom: 20px;
+}
+
+.me-12 {
+    margin-right: 12px;
+}

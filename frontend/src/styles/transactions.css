@@ -1,0 +1,61 @@
+.container {
+    margin: 0 60px;
+}
+
+.main-h1 {
+    margin-bottom: 40px;
+}
+
+.create-income-expenses {
+    margin-bottom: 40px;
+}
+
+.buttons {
+    margin-bottom: 40px;
+}
+
+.create-income, .create-expenses {
+    padding: 11px 16px;
+}
+
+.transactions {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.transactions thead tr {
+    border-top: 1px solid #DEE2E6;
+    border-bottom: 1px solid #DEE2E6;
+    color: #052C65;
+}
+.transactions thead tr th {
+    padding: 16px 0;
+}
+.transactions tbody td {
+    border-bottom: 1px solid #DEE2E6;
+    padding: 16px 0;
+    align-items: center;
+}
+
+.edit-transaction, .delete-transaction {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.type-expenses {
+    color: #DC3545;
+}
+
+.type-income {
+    color: #198754;
+}
+
+.operation-number {
+    font-family: RobotoBold, sans-serif;
+}
+
+.form-control {
+    max-width: 397px;
+}
